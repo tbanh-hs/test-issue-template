@@ -3,16 +3,11 @@ description: This issue serves as a log of what happened during the on-call shif
 title: "Weekly On Call Update"
 labels: ["on-call"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Good things to add here are:
-          - Critsits, if any occurred, a summary of them and their slack channels
-          - A high volume of pages or high severity of pages that could affect the next person in rotation
-          - Links to tickets made or PRs for fixes.
-          - Any context or information that could be useful for the next person in rotation
   - type: textarea
     attributes:
-      label: "textarea-test"
-      description: "test description"
-      placeholder: "test placeholder"
+      label: "Good things to add here are:"
+      value: |
+        - Critsits, if any occurred, a summary of them and their slack channels
+        - A high volume of pages or high severity of pages that could affect the next person in rotation
+        - Links to tickets made or PRs for fixes.
+        - Any context or information that could be useful for the next person in rotation
