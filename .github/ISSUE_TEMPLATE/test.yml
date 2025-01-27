@@ -11,3 +11,8 @@ body:
           - A high volume of pages or high severity of pages that could affect the next person in rotation
           - Links to tickets made or PRs for fixes.
           - Any context or information that could be useful for the next person in rotation
+  - type: textarea
+    attributes:
+      label: "textarea-test"
+      description: "test description"
+      placeholder: "test placeholder"
